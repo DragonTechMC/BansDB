@@ -1,10 +1,13 @@
-
 plugins {
     id 'java'
     id 'idea'
     id 'eclipse'
     id "com.qixalite.spongestart" version "1.4.3"
 }
+
+group= 'us.illyohs.bansdb' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = 'bansdb'
+version = '0.0.1'
 
 // In this section you declare where to find the dependencies of your project
 repositories {
@@ -22,7 +25,7 @@ jar {
                 'Created-By': "${System.properties['java.vm.version']} (${System.properties['java.vm.vendor']})",
 
                 'Implementation-Title': project.name,
-                'Implementation-Vendor': project.url
+                'Implementation-Vendor': "https://github.com/DragonTechMC"
         )
     }
 }
