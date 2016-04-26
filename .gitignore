@@ -1,0 +1,19 @@
+# gradle stuff
+build
+.gradle
+
+# eclipse stuff
+.classpath
+.project
+.settings
+bin
+
+# debug & lib folders
+debug
+
+# intellij stuff
+.idea
+out
+*.iml
+*.ipr
+*.iws

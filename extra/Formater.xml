@@ -1,0 +1,16 @@
+<code_scheme name="Default (1)">
+  <option name="IMPORT_LAYOUT_TABLE">
+    <value>
+      <emptyLine />
+      <package name="javax" withSubpackages="true" static="false" />
+      <package name="java" withSubpackages="true" static="false" />
+      <emptyLine />
+      <package name="" withSubpackages="true" static="false" />
+      <package name="" withSubpackages="true" static="true" />
+    </value>
+  </option>
+  <codeStyleSettings language="JAVA">
+    <option name="ALIGN_GROUP_FIELD_DECLARATIONS" value="true" />
+    <option name="ALIGN_CONSECUTIVE_VARIABLE_DECLARATIONS" value="true" />
+  </codeStyleSettings>
+</code_scheme>
