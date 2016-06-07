@@ -1,15 +1,15 @@
 plugins {
-    id 'java'
+    id 'scala'
     id 'idea'
     id 'eclipse'
     id "com.qixalite.spongestart" version "1.4.3"
+    id 'maven'
 }
 
-group= 'us.illyohs.bansdb' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = 'bansdb'
+group= 'us.illyohs.us.illyohs.bansdb' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = 'BansDB'
 version = '0.0.1'
 
-// In this section you declare where to find the dependencies of your project
 repositories {
     jcenter()
     maven {
@@ -38,6 +38,7 @@ spongestart{
     spongeForgeBuild 'LATEST'
 }
 
-ependencies {
+dependencies {
     compile 'org.spongepowered:spongeapi:4.0.3'
+    compile 'org.scala-lang:scala-library:2.11.1'
 }
